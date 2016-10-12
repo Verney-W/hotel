@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<title>列表页</title>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+	<div class="container">
+		<header class="head_list">
+			   <a href="index.html">返回</a>
+			   <span id="counts"></span>酒店列表
+		</header>
+		<div class="cal_list">
+			   <p><label>入住</label><input type="hidden" id="date_in">&nbsp;&nbsp;<span id="inText">7月7日</span></p>
+			   <p><label>离店</label><input type="hidden" id="date_out">&nbsp;&nbsp;<span id="outText">7月8日</span></p>
+			   <h2 id="modify" data-type="list">修改</h2>
+		</div>
+		<div class="hotel-box" id="hotel_scroll">
+			<div class="scroll">
+				<!--信息列表-->
+				<div class="hotel_list" id="hotel_list">
+					<!-- <div class="hotel_rows">
+						<a href="">
+							<dl>
+								<dt>
+									<img src="../img/no_picture.gif" alt="">
+								</dt>
+								<dd>
+									<h2>酒店名称</h2>
+									<ul>
+										<li class="pf">4.5分</li>
+										<li>礼</li>
+										<li>促</li>
+										<li>返</li>
+									</ul><br/>
+									<p>三星级<img src="../img/icon-wifi.png"><img src="../img/icon-park.png"></p>
+									<address>北京市海淀区<span>0.8km</span></address>
+								</dd>
+							</dl>
+							<p class="hotel_money">￥50<b>起</b></p>
+						</a>
+					</div> -->
+				</div>
+			</div>
+		</div>
+		<div class="bottom-bar">
+		        <ul>
+		            <li class="" data="range"><span>排序</span></li>
+		            <li data="price"><span>价格</span></li>
+		            <li data='star'><span>星级</span></li>
+		            <li data='brand'><span>品牌</span></li>
+		        </ul>
+		    </div>
+		    <div class="plugin_1 filter filter-hide">
+		        <!--<div class="act-area">
+		            <p><span class="left">不限</span><span class="checkbox checked right"></span></p>
+		            <p><span class="left">二星及以下</span><span class="checkbox right"></span></p>
+		            <p><span class="left">三星</span><span class="checkbox right"></span></p>
+		            <p><span class="left">四星</span><span class="checkbox right"></span></p>
+		            <p><span class="left">五星</span><span class="checkbox right"></span></p>
+		        </div>-->
+		    </div>
+		    <div class="mask-layer hide"></div>
+		</div>
+	</div>
+	<script src="../lib/require.js" data-main="../main"></script>
+</body>
+</html>

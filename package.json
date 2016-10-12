@@ -1,0 +1,27 @@
+{
+  "name": "beida",
+  "version": "1.0.0",
+  "description": "moblie hotel booking",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "odject",
+    "require.js",
+    "html5",
+    "css3",
+    "moblie",
+    "template"
+  ],
+  "author": "Jacky",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0"
+  }
+}

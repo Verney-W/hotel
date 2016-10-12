@@ -1,0 +1,174 @@
+@charset "utf-8";
+.container{
+	width: 100%;
+	height: 100%;
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+	position: relative;
+}
+.delist{
+	width:100%;
+	height: 100%;
+	-webkit-box-flex: 1;
+	overflow: scroll;
+}
+.swiper-container{
+	overflow: hidden;
+}
+.list_content{
+	width:100%;
+	height: 205px;
+	padding:10px;
+	.list_ul{
+		width: 100%;
+		height: 35px;
+		border:1px solid #24AEF2;
+		border-radius: 3px;
+		li{
+			float: left;
+			width:50%;
+			height:33px;
+			text-align: center;
+			line-height: 33px;
+		}
+		.list_bg{
+			background:#24AEF2;
+			color: #fff;
+		}
+	}
+	.list_ol{
+		width:100%;
+		height: 148px;
+		li{
+			padding: 3px 0px;
+			border-bottom: 1px solid #ccc;
+			img{
+				width:18px;
+			}
+		}
+	}
+}
+.list_yuding{
+	width:100%;
+	height: 100px;
+	overflow: hidden;
+	div{
+		width:100%;
+		height: 50px;
+		border-bottom: 1px solid #ccc;
+		position: relative;
+		padding:0px 15px;
+		b{
+			color: orange;
+			line-height: 50px;
+			margin-left: 100px;
+		}
+		span{
+			display: inline-block;
+			width:40px;
+			height: 25px;
+			color: #24AEF2;
+			text-align: center;
+			border:1px solid #24AEF2;
+			border-radius:3px;
+			position: absolute;
+			top:50%;
+			margin-top: -10px;
+			right: 15px;
+		}
+	}
+}
+.list_manu{
+	width:100%;
+	height: 200px;
+	overflow: hidden;
+}
+.list_btn,.list_btn1{
+	width: 100%;
+	height: 25px;
+	text-align: center;
+}
+.dalist_bg{
+	width:100%;
+	height: 100%;
+	position: absolute;
+	left:0px;
+	top:100%;
+	background:rgba(0,0,0,.5);
+}
+.dalist_box{
+	width:100%;
+	height: 317px;
+	background: #fff;
+	position: absolute;
+	left:0px;
+	top:150%;
+	.dalist_box_contain{
+		width:100%;
+		padding: 10px;
+		position: relative;
+		b{
+			position: absolute;
+			right:3%;
+			top:3%;
+		}
+		dl{
+			width:100%;
+			height:75px;
+			padding-bottom: 8px;
+			dt{
+				width: 60px;
+				width: 60px;
+				float: left;
+				margin-right: 10px;
+				img{
+					width: 60px;
+					width: 60px;
+				}
+			}
+			dd{
+				float: left;
+				height:70px;
+				h3{
+					color: orange;
+				}
+				h4{
+					width: 35px;
+					height: 22px;
+					background: orange;
+					color: #fff;
+					text-align: center;
+					border-radius: 3px;
+				}
+			}
+		}
+		p{
+			width: 100%;
+			height: 35px;
+			border-top:1px solid #ccc;
+			line-height: 35px;
+			&::before{
+					content: '';
+					display: inline-block;
+					width:10px;
+					height: 10px;
+					background:#f4f4f4;
+					border-radius: 50%;
+					margin-right: 10px;
+					margin-left: 15px;
+			}
+			span{
+				float: right;
+				line-height: 35px;
+				margin-right: 5px;
+			}
+		}
+	}
+	.dalist_btn{
+		width: 100%;
+		height: 52px;
+		background: #24AEF2;
+		color: #fff;
+		font-size: 18px;
+	}
+}

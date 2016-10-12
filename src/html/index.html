@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+	<div class="main">
+			<header class="swiper-container" id="slider">
+					 <ul class="swiper-wrapper">
+					       <li class="swiper-slide" id="swiper-slide"><img src="../img/banner1.jpg"></li>
+					       <li class="swiper-slide" id="swiper-slide"><img src="../img/banner2.jpg"></li>
+					       <li class="swiper-slide" id="swiper-slide"><img src="../img/banner3.jpg"></li>
+					  </ul>
+			</header>
+			<section class="section">
+				<ul class="ul">
+					<li class="clear"><b>入住地</b><span class="local-city">北京</span><p>我的位置</p></li>
+					<li class="local-time"><b>入住日</b><span class="date-in">7月16日</span></li>
+					<li class="leave-time"><b>离店日</b><span class="date-out">1晚（7月17日离店）</span></li>
+					<li><b>酒店名</b><span>酒店名称（选填）</span></li>
+				</ul>
+				<footer>
+					<div class="btn" id="btn"><img src="../img/icon-search.png">搜索酒店</div>
+				</footer>
+			</section>
+		<div class="plugin none">
+		</div>
+	</div>
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/iscroll.js"></script>
+	<script type="text/javascript" src="../js/swiper.min.js"></script>
+	<script type="text/javascript" src="../js/touch.js"></script>
+	<script src="../lib/require.js" data-main="../main"></script>
+	<script type="text/javascript">
+		var swiper = new Swiper('.swiper-container', {
+	       pagination: '.swiper-pagination',//设置分页器，即轮播图上的小点
+	       loop: true,//循环播
+	       autoplay:2000,//自动播间隔
+	       autoplayDisableOnInteraction:false//划完以后继续自动播
+		});
+	</script>
+	
+</body>
+</html>
